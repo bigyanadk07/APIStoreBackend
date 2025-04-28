@@ -73,7 +73,11 @@
   {
     "packageId": "string",
     "paymentDetails": {
-      // Your Payment Details Object
+          "method": "Khalti",
+          "transactionId": "KLT123456789",
+          "amount": 500,
+          "currency": "NPR"
+  }
     }
   }
   ```
