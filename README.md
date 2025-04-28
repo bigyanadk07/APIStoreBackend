@@ -79,7 +79,6 @@
           "currency": "NPR"
   }
     }
-  }
   ```
 - **Description:** Subscribes the authenticated user to a package.
 - **Testing Tip:** Make sure you have a valid packageId and simulate a paymentDetails object.
