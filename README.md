@@ -145,3 +145,24 @@
 - **Example URL:** `GET /usage/stats?from=2024-04-01&to=2024-04-27`
 - **Description:** Retrieves usage data for user's API keys within a specified date range.
 - **Testing Tip:** Ensure correct date format (YYYY-MM-DD).
+
+
+### SAMPLE ENV FILE
+```
+# MongoDB URI
+MONGODB_URI=Your_mongo_
+JWT_EXPIRES_IN = duration
+PORT = port
+
+# Twilio Credentials
+TWILIO_ACCOUNT_SID=Your_account_sid
+TWILIO_AUTH_TOKEN=Your_auth_token
+TWILIO_VERIFY_SERVICE_SID = Your_service_id
+
+# JWT Secret
+JWT_SECRET=your_jwt_secret_key
+
+# Redis Configuration
+REDIS_HOST=your_host
+REDIS_PORT=your_redis_port
+```
